@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.spacex.api.tests.Launch_Details_API_Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.782 sec <<< FAILURE!
+TC_03_ValidateResponseOfLaunchAPI_withInvalidHeader(com.spacex.api.tests.Launch_Details_API_Test)  Time elapsed: 1.26 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at com.spacex.api.tests.Launch_Details_API_Test.TC_03_ValidateResponseOfLaunchAPI_withInvalidHeader(Launch_Details_API_Test.java:114)
+

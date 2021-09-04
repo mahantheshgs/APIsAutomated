@@ -1,0 +1,9 @@
+com\spacex\api\pojo\Core.class
+com\spacex\api\pojo\Flickr.class
+com\spacex\api\utils\ExcelUtils.class
+com\spacex\api\common\TestBase.class
+com\spacex\api\enums\Endpoints.class
+com\spacex\api\pojo\Example.class
+com\spacex\api\pojo\Links.class
+com\spacex\api\pojo\Patch.class
+com\spacex\api\pojo\Reddit.class
